@@ -752,7 +752,7 @@ footer {
 
 /*footer styles end*/
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   
 /*navbar start*/
 a {
@@ -888,7 +888,7 @@ a:hover {
     border-radius: 40px;
     border: none;
     position: relative;
-    bottom: 15px;
+    bottom: 5px;
     right:20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -905,20 +905,19 @@ a:hover {
     border-radius: 20px;
     border: none;
     position: relative;
-    bottom: 15px;
+    bottom: 5px;
   right:50px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 13px;
 
 }
-    
-    .herobtn2div {
+.herobtn2div {
     width:50px;
 }
-
 .herodashboard {
-    margin-left: 3%;
+    margin-left: 10%;
+    margin-top: 15%;
     width: 300px;
     border-radius: 10px;
 
@@ -940,7 +939,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .secondpageletters {
@@ -951,7 +950,7 @@ a:hover {
     background-color: #f6f8fd;
     width: 280px;
     height: 280px;
-    margin-left: 20px;
+    margin-left: 50px;
     border-radius: 50px;
     color: black;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -962,7 +961,7 @@ a:hover {
     background-color: #f6fcfe;
     width: 280px;
     height: 280px;
-    margin-left: 20px;
+    margin-left: 50px;
     border-radius: 50px;
     color: black;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -1020,7 +1019,7 @@ a:hover {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     margin-top: 25%;
-   margin-left: 70px;
+   margin-left: 128px;
 
 }
 
@@ -1133,7 +1132,7 @@ margin-top: 30px;
     border: none;
     position: relative;
     bottom: 1px;
-    left:60px;
+    left:95px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 13px;
@@ -1169,7 +1168,7 @@ margin-top: 30px;
     color: black;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 55px;
 }
 
 .customerreviewsdiv {
@@ -1181,7 +1180,7 @@ margin-top: 30px;
     width: 270px;
     height: 250px;
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 55px;
     border-radius: 20px;
     background-color: white;
     color: black;
@@ -1227,7 +1226,7 @@ margin-top: 30px;
 }
 
 .customerreviewsbtn {
-    width: 250px;
+    width: 300px;
     border: 2px solid #245de7;
     color: #245de7;
     background-color: transparent;
@@ -1277,7 +1276,7 @@ margin-top: 30px;
     margin-top: 20%;
 }
 .getstarteddiv1 {
-    width:270px;
+    width:320px;
     height:200px;
     margin-left: 25px;
     box-shadow: #00000033 0px 2px 5px ;
@@ -1285,7 +1284,7 @@ margin-top: 30px;
     border-radius: 5px;
 }
 .getstarteddiv2 {
-    width:270px;
+    width:320px;
     height:200px;
     margin-left: 25px;
     box-shadow: #00000033 0px 2px 5px ;
@@ -1294,7 +1293,7 @@ margin-top: 30px;
     margin-top: 30px;
 }
 .getstarteddiv3 {
-    width:270px;
+    width:320px;
     height:200px;
     margin-left: 25px;
     box-shadow: #00000033 0px 2px 5px ;
@@ -1336,7 +1335,8 @@ margin-top: 30px;
     margin-top: 10%;
 }
 .getstartbannercontainer {
-    width:425px;
+    width: 390px;
+    overflow: hidden;
     height:650px;
     margin-top: 10%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.2)),url("https://crypo.netlify.app/assets/img/landing/sub-bg.jpg");
@@ -1390,9 +1390,9 @@ footer {
 .footer {
     background-color: #08041e;
     color: white;
-    width: 425px;
+    width: 390px;
     height: 100%;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 
 .footerlogo {
@@ -1401,6 +1401,12 @@ footer {
     margin-top: -30px;
     margin-left: 30px;
     cursor: pointer;
+}
+.footerlogodiv {
+    background-color: #08041e;
+    color: white;
+    width: 390px;
+    overflow: hidden;
 }
 
 .footerletters {
