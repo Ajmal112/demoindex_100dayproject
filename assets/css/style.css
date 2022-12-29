@@ -1336,7 +1336,7 @@ margin-top: 30px;
     margin-top: 10%;
 }
 .getstartbannercontainer {
-    width:320px;
+    width:425px;
     height:650px;
     margin-top: 10%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.2)),url("https://crypo.netlify.app/assets/img/landing/sub-bg.jpg");
@@ -1390,7 +1390,7 @@ footer {
 .footer {
     background-color: #08041e;
     color: white;
-    width: 320px;
+    width: 425px;
     height: 100%;
     margin-top: 40%;
 }
